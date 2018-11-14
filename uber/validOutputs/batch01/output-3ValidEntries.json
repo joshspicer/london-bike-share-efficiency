@@ -1,0 +1,129 @@
+/*
+,randLat1,randLong1,randLat2,randLong2,oBike,dBike,coorDistance
+0,51.517842,-0.090075,51.5154186,-0.098850915,509,71,0.41670864581321143
+1,51.47311696,-0.137235175,51.485587,-0.18119000000000002,714,573,2.09641364132539
+2,51.51155322,-0.09294010000000001,51.49582705,-0.13547809,101,118,2.1447291188107904 
+ */
+
+{
+  0: {
+    "estimate": {
+      "surge_confirmation_href": None,
+      "high_estimate": 6,
+      "surge_confirmation_id": None,
+      "minimum": 5,
+      "low_estimate": 5,
+      "fare_breakdown": [
+        {
+          "high_amount": 2.5,
+          "display_amount": "2.5",
+          "display_name": "Base Fare",
+          "low_amount": 2.5
+        },
+        {
+          "high_amount": 0.86,
+          "display_amount": "0.64-0.86",
+          "display_name": "Distance",
+          "low_amount": 0.64
+        },
+        {
+          "high_amount": 0.34,
+          "display_amount": "0.89-0.34",
+          "display_name": "£5.00 Minimum",
+          "low_amount": 0.89
+        },
+        {
+          "high_amount": 1.3,
+          "display_amount": "0.97-1.3",
+          "display_name": "Time",
+          "low_amount": 0.97
+        }
+      ],
+      "surge_multiplier": 1.0,
+      "display": "£5-6",
+      "currency_code": "GBP"
+    },
+    "trip": {
+      "distance_unit": "mile",
+      "duration_estimate": 420,
+      "distance_estimate": 0.57
+    },
+    "pickup_estimate": 20
+  },
+  1: {
+    "estimate": {
+      "surge_confirmation_href": None,
+      "high_estimate": 11,
+      "surge_confirmation_id": None,
+      "minimum": 5,
+      "low_estimate": 8,
+      "fare_breakdown": [
+        {
+          "high_amount": 2.5,
+          "display_amount": "2.5",
+          "display_name": "Base Fare",
+          "low_amount": 2.5
+        },
+        {
+          "high_amount": 5.25,
+          "display_amount": "3.94-5.25",
+          "display_name": "Distance",
+          "low_amount": 3.94
+        },
+        {
+          "high_amount": 3.22,
+          "display_amount": "2.42-3.22",
+          "display_name": "Time",
+          "low_amount": 2.42
+        }
+      ],
+      "surge_multiplier": 1.0,
+      "display": "£8-11",
+      "currency_code": "GBP"
+    },
+    "trip": {
+      "distance_unit": "mile",
+      "duration_estimate": 1080,
+      "distance_estimate": 3.5
+    },
+    "pickup_estimate": 10
+  },
+  2: {
+    "estimate": {
+      "surge_confirmation_href": None,
+      "high_estimate": 10,
+      "surge_confirmation_id": None,
+      "minimum": 5,
+      "low_estimate": 7,
+      "fare_breakdown": [
+        {
+          "high_amount": 2.5,
+          "display_amount": "2.5",
+          "display_name": "Base Fare",
+          "low_amount": 2.5
+        },
+        {
+          "high_amount": 3.93,
+          "display_amount": "2.94-3.93",
+          "display_name": "Distance",
+          "low_amount": 2.94
+        },
+        {
+          "high_amount": 2.93,
+          "display_amount": "2.2-2.93",
+          "display_name": "Time",
+          "low_amount": 2.2
+        }
+      ],
+      "surge_multiplier": 1.0,
+      "display": "£7-10",
+      "currency_code": "GBP"
+    },
+    "trip": {
+      "distance_unit": "mile",
+      "duration_estimate": 960,
+      "distance_estimate": 2.62
+    },
+    "pickup_estimate": 21
+  }
+}
