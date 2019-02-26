@@ -8,15 +8,18 @@
 
 This project, done in collaboration with Tom Bain, served as my final project for the [Social and Technlogical Networks](http://www.inf.ed.ac.uk/teaching/courses/stn/) course at the University of Edinburgh.
 
-This repo contains various [data-sets](/data-sets) for trip duration between two locations in London.  Each trip duration is recorded as if taken via bike-share, uber, and Tube.  Various [calculations-and-experiments](/calculations-and-experiments) were conducted and can be reviewed within the provided iPython file.  Helper [scripts](/scripts) used throughout the research phase can be found as well.
+This repo contains various [data-sets](/data-sets) used to calculate trip duration between two locations in London.  Each trip's duration between point A and B (taken randomly from a set) is calculted as if the ride had been conducted via bike-share, uber, AND Tube.  Various [calculations-and-experiments](/calculations-and-experiment.ipynb) were conducted and can be reviewed within the provided iPython file.  Helper [scripts](/scripts) used throughout the research phase can be found as well.
 
 ## Findings
 
-These experiments were used to generate the [findings-graphs](/findings-graphs) which I draw conclusions upon in my final [report](/STN Project - Submitted.pdf).  Findings are split into two categories: proximity (prox) and range, as well as the specified interval.  Each edge that exists is also assigned a color based on the **optimal** mode of transport in that experiment.  The colors are:
+These experiments were used to generate the [findings-graphs](/findings-graphs). I then draw conclusions in my final [report](/STN Project - Submitted.pdf) based on these experiments.  Findings are split into two categories: proximity (prox) and range, as well as the specified interval.  Each edge that exists is also assigned a color based on the **optimal** mode of transport in that experiment.  The colors are:
 
-Bike | blue
-Train | green
-Uber | orange
+
+| Mode  | Color
+|-------|--------|
+| Bike  | blue
+| Train | green
+| Uber  | orange
 
 
 ## Usage 
