@@ -79,7 +79,7 @@ def computeCoords(address):
         print("Requesting Value!")
         global computedValue
         computedValue += 1
-        r = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+ address  + '&key=AIzaSyCswxrLBhiTq9PPW_8l6nMU2b0fwf9Z5oA')
+        r = requests.get('https://maps.googleapis.com/maps/api/geocode/json?address='+ address  + '&key=<YOUR-KEY>')
         try:
             result = r.json()['results'][0]['geometry']['location']
             dict[address] = (result['lat'],result['lng'])
@@ -107,4 +107,4 @@ def increaseError():
 main()
 
 
-# "https://maps.googleapis.com/maps/api/geocode/json?address="+ADDRESS+"&key=AIzaSyCswxrLBhiTq9PPW_8l6nMU2b0fwf9Z5oA"
+# "https://maps.googleapis.com/maps/api/geocode/json?address="+ADDRESS+"&key=<YOUR-TOKEN>"
